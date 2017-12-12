@@ -30,4 +30,57 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  about:
+    about_text: "About"
+    the: "The "
+    is_a: "is a"
+    and: "and"
+    screencast: "screencast series"
+    this: "This is the sample application for the tutorial"
+    to: "to teach web development with"
+  application:
+    rails_default: "layouts/rails_default"
+    shim: "layouts/shim"
+    header: "layouts/header"
+    footer: "layouts/footer"
+  book: "book"
+  contact:
+    contact_text: "Contact"
+    contact_at: "Contact the Ruby on Rails Tutorial about the sample app at the"
+  footer:
+    the: "The "
+    by: "by "
+    michael_hartl: "Michael Hartl"
+  help:
+    get_help: "Get help on the Ruby on Rails Tutorial at the"
+    rails_help_section: "Rails Tutorial help section"
+    get_help_sample_app: "To get help on this sample app, see the"
+  help_text: "Help"
+  home:
+    welcome: "Welcome to the Sample App"
+    intro: "This is the home page for the"
+    sample_app: "sample application"
+    sign_up: "Sign up now!"
+    img_alt: "Rails logo"
+  home_text: "Home"
+  logo:
+    sample_app: "sample app"
+  nav:
+    about: "About"
+    contact: "Contact"
+    news: "News"
+    log_in: "Login"
+  new:
+    sign_up: "Sign up"
+    info: "This will be a signup page for new users"
+  ror: "Ruby on Rails"
+  ror_em: "<em>Ruby on Rails Tutorial</em>"
+  ror_tut: "Ruby on Rails Tutorial "
+  url:
+    railstutorial: "http://www.railstutorial.org/"
+    michaelhartl: "http://www.michaelhartl.com/"
+    screencasts: "http://screencasts.railstutorial.org/"
+    rubyonrails: "http://rubyonrails.org/"
+    railstutorial_contact: "http://www.railstutorial.org/contact"
+    railstutorial_help: "http://www.railstutorial.org/help"
+    railstutorial_book: "http://www.railstutorial.org/book"
