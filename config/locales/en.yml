@@ -7,6 +7,12 @@ en:
     screencast: "screencast series"
     this: "This is the sample application for the tutorial"
     to: "to teach web development with"
+  account_activation:
+    title: "Sample App"
+    hi: "Hi %{name}"
+    welcome: "Welcome to the Sample App! Click on the link below to activate
+      your account:"
+    activate: "Activate"
   application:
     rails_default: "layouts/rails_default"
     shim: "layouts/shim"
@@ -16,13 +22,32 @@ en:
   contact:
     contact_text: "Contact"
     contact_at: "Contact the Ruby on Rails Tutorial about the sample app at the"
+  delete:
+    del: "delete"
+    confirm: "You sure?"
   error_messages:
     alert_message: "The form contains %{count}."
     errors: "error"
+  edit:
+    title: "Edit user"
+    content: "Update your profile"
+    confirmation: "Confirmation"
+    save_changes: "Save changes"
+    change: "change"
+  follow:
+    following: "following"
+    follower: "followers"
+    following_upcase: "Following"
+    follower_upcase: "Followers"
+    follow: "Follow"
+    unfollow: "Unfollow"
   footer:
     the: "The "
     by: "by "
     michael_hartl: "Michael Hartl"
+  forgot_password:
+    title: "Forgot password"
+    submit: "Submit"
   help:
     get_help: "Get help on the Ruby on Rails Tutorial at the"
     rails_help_section: "Rails Tutorial help section"
@@ -34,21 +59,74 @@ en:
     sample_app: "sample application"
     sign_up: "Sign up now!"
     img_alt: "Rails logo"
+    micropost_feed: "Micropost Feed"
   home_text: "Home"
+  index:
+    title: "All users"
   logo:
     sample_app: "sample app"
+  login:
+    login_text: "Login"
+    new_user: "New user? %{url}"
+    sign_up_now: "Sign up now!"
+    remember_me: "Remember me on this computer"
+    forgot_password: "(forgot password)"
+  mailer:
+    account_activation: "Account activation"
+    greeting: "Hi"
+    password_reset: "Password reset"
+  micropost:
+    name: "Microposts"
+    confirm: "You sure?"
+    picture_validate: "should be less than 5MB"
   nav:
     about: "About"
     contact: "Contact"
     news: "News"
     log_in: "Login"
+    users: "Users"
+    profile: "Profile"
+    settings: "Settings"
+    account: "Account <b class=%{cr}></b>"
   new:
     sign_up: "Sign up"
     create_account: "Create my account"
     confirmation: "Confirmation"
+  notification:
+    activated: "Account activated!"
+    invalid_activation: "Invalid activation link"
+    app: "Ruby on Rails Tutorial Sample App"
+    check_email: "Please check your email to activate your account."
+    deleted: "User deleted"
+    not_activated: "Account not activated."
+    invalid: "Invalid email/password combination"
+    update_success: "Profile updated"
+    login_please: "Please log in."
+    welcome: "Welcome to the Sample App!"
+    email_reset_password_sent: "Email sent with password reset instructions"
+    email_not_found: "Email address not found"
+    reset_success: "Password has been reset."
+    cant_empty: "can't be empty"
+    expired_password: "Password reset has expired."
+    micropost_created: "Micropost created!"
+    micropost_destroyed: "Micropost deleted"
+    user_not_deleted: "User not deleted"
+    micropost_not_destroyed: "Micropost not deleted"
+    micropost_not_found: "Micropost not found"
+  password_reset:
+    click_link_below: "To reset your password click the link below:"
+    expire_time: "This link will expire in two hours."
+    ignore_email: "If you did not request your password to be reset,
+      please ignore this email and your password will stay as it is."
+    reset_password: "Reset password"
+    update_password: "Update password"
   ror: "Ruby on Rails"
   ror_em: "<em>Ruby on Rails Tutorial</em>"
   ror_tut: "Ruby on Rails Tutorial "
+  shared:
+    view_profile: "view my profile"
+    new_micropost: "Compose new micropost..."
+    post: "Post"
   url:
     railstutorial: "http://www.railstutorial.org/"
     michaelhartl: "http://www.michaelhartl.com/"
