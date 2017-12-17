@@ -13,6 +13,7 @@ class UsersController < ApplicationController
   end
 
   def show
+    @microposts = @user.microposts.paginate page: params[:page]
     redirect_to root_url unless @user
   end
 
@@ -48,9 +49,13 @@ class UsersController < ApplicationController
   end
 
   def destroy
-    @user.destroy
-    flash[:success] = t "notification.deleted"
-    redirect_to users_url
+    if @user.destroy
+      flash[:success] = t "notification.deleted"
+      redirect_to users_url
+    else
+      flash[:error] = t "notification.user_not_deleted"
+      redirect_to users_url
+    end
   end
 
   private

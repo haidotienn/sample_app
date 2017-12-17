@@ -52,6 +52,7 @@ en:
     sample_app: "sample application"
     sign_up: "Sign up now!"
     img_alt: "Rails logo"
+    micropost_feed: "Micropost Feed"
   home_text: "Home"
   index:
     title: "All users"
@@ -68,6 +69,10 @@ en:
     greeting: "Hi"
     forgot_password: "(forgot password)"
     password_reset: "Password reset"
+  micropost:
+    name: "Microposts"
+    confirm: "You sure?"
+    picture_validate: "should be less than 5MB"
   nav:
     about: "About"
     contact: "Contact"
@@ -97,6 +102,10 @@ en:
     reset_success: "Password has been reset."
     cant_empty: "can't be empty"
     expired_password: "Password reset has expired."
+    micropost_created: "Micropost created!"
+    micropost_destroyed: "Micropost deleted"
+    user_not_deleted: "User not deleted"
+    micropost_not_destroyed: "Micropost not deleted"
   password_reset:
     click_link_below: "To reset your password click the link below:"
     expire_time: "This link will expire in two hours."
@@ -107,6 +116,10 @@ en:
   ror: "Ruby on Rails"
   ror_em: "<em>Ruby on Rails Tutorial</em>"
   ror_tut: "Ruby on Rails Tutorial "
+  shared:
+    view_profile: "view my profile"
+    new_micropost: "Compose new micropost..."
+    post: "Post"
   url:
     railstutorial: "http://www.railstutorial.org/"
     michaelhartl: "http://www.michaelhartl.com/"
