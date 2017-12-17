@@ -7,6 +7,12 @@ en:
     screencast: "screencast series"
     this: "This is the sample application for the tutorial"
     to: "to teach web development with"
+  account_activation:
+    title: "Sample App"
+    hi: "Hi %{name}"
+    welcome: "Welcome to the Sample App! Click on the link below to activate
+      your account:"
+    activate: "Activate"
   application:
     rails_default: "layouts/rails_default"
     shim: "layouts/shim"
@@ -54,6 +60,9 @@ en:
     sign_up_now: "Sign up now!"
     remember_me: "Remember me on this computer"
   logout: "Log out"
+  mailer:
+    account_activation: "Account activation"
+    greeting: "Hi"
   nav:
     about: "About"
     contact: "Contact"
@@ -68,8 +77,12 @@ en:
     create_account: "Create my account"
     confirmation: "Confirmation"
   notification:
+    activated: "Account activated!"
+    invalid_activation: "Invalid activation link"
     app: "Ruby on Rails Tutorial Sample App"
+    check_email: "Please check your email to activate your account."
     deleted: "User deleted"
+    not_activated: "Account not activated."
     invalid: "Invalid email/password combination"
     update_success: "Profile updated"
     login_please: "Please log in."
