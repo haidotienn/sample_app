@@ -73,4 +73,5 @@ class UsersController < ApplicationController
     @user = User.find_by id: params[:id]
     redirect_to "/404" if @user.nil?
   end
+
 end
