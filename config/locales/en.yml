@@ -16,6 +16,9 @@ en:
   contact:
     contact_text: "Contact"
     contact_at: "Contact the Ruby on Rails Tutorial about the sample app at the"
+  error_messages:
+    alert_message: "The form contains %{count}."
+    errors: "error"
   footer:
     the: "The "
     by: "by "
@@ -41,7 +44,8 @@ en:
     log_in: "Login"
   new:
     sign_up: "Sign up"
-    info: "This will be a signup page for new users"
+    create_account: "Create my account"
+    confirmation: "Confirmation"
   ror: "Ruby on Rails"
   ror_em: "<em>Ruby on Rails Tutorial</em>"
   ror_tut: "Ruby on Rails Tutorial "
