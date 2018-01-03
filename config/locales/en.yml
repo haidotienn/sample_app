@@ -34,6 +34,13 @@ en:
     confirmation: "Confirmation"
     save_changes: "Save changes"
     change: "change"
+  follow:
+    following: "following"
+    follower: "followers"
+    following_upcase: "Following"
+    follower_upcase: "Followers"
+    follow: "Follow"
+    unfollow: "Unfollow"
   footer:
     the: "The "
     by: "by "
