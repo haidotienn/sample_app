@@ -53,6 +53,15 @@ textarea {
   }
 }
 
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
 .debug_dump {
   clear: both;
   float: left;
@@ -162,4 +171,9 @@ footer {
 
 img {
   width: 200px;
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
 }

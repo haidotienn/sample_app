@@ -41,6 +41,7 @@ en:
     login_text: "Login"
     new_user: "New user? %{url}"
     sign_up_now: "Sign up now!"
+    remember_me: "Remember me on this computer"
   logout: "Log out"
   nav:
     about: "About"
