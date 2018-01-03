@@ -58,6 +58,18 @@ class UsersController < ApplicationController
     end
   end
 
+  def following
+    @title = t "follow.following_upcase"
+    @users = @user.following.order(:name).page params[:page]
+    render :show_follow
+  end
+
+  def followers
+    @title = t "follow.follower_upcase"
+    @users = @user.followers.order(:name).page params[:page]
+    render :show_follow
+  end
+
   private
 
   def user_params
