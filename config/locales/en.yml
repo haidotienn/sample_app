@@ -16,9 +16,18 @@ en:
   contact:
     contact_text: "Contact"
     contact_at: "Contact the Ruby on Rails Tutorial about the sample app at the"
+  delete:
+    del: "delete"
+    confirm: "You sure?"
   error_messages:
     alert_message: "The form contains %{count}."
     errors: "error"
+  edit:
+    title: "Edit user"
+    content: "Update your profile"
+    confirmation: "Confirmation"
+    save_changes: "Save changes"
+    change: "change"
   footer:
     the: "The "
     by: "by "
@@ -35,6 +44,8 @@ en:
     sign_up: "Sign up now!"
     img_alt: "Rails logo"
   home_text: "Home"
+  index:
+    title: "All users"
   logo:
     sample_app: "sample app"
   login:
@@ -57,8 +68,12 @@ en:
     create_account: "Create my account"
     confirmation: "Confirmation"
   notification:
-    welcome: "Welcome to the Sample App!"
+    app: "Ruby on Rails Tutorial Sample App"
+    deleted: "User deleted"
     invalid: "Invalid email/password combination"
+    update_success: "Profile updated"
+    login_please: "Please log in."
+    welcome: "Welcome to the Sample App!"
   ror: "Ruby on Rails"
   ror_em: "<em>Ruby on Rails Tutorial</em>"
   ror_tut: "Ruby on Rails Tutorial "
