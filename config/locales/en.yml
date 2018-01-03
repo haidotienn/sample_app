@@ -37,15 +37,27 @@ en:
   home_text: "Home"
   logo:
     sample_app: "sample app"
+  login:
+    login_text: "Login"
+    new_user: "New user? %{url}"
+    sign_up_now: "Sign up now!"
+  logout: "Log out"
   nav:
     about: "About"
     contact: "Contact"
     news: "News"
     log_in: "Login"
+    users: "Users"
+    profile: "Profile"
+    settings: "Settings"
+    account: "Account <b class=%{cr}></b>"
   new:
     sign_up: "Sign up"
     create_account: "Create my account"
     confirmation: "Confirmation"
+  notification:
+    welcome: "Welcome to the Sample App!"
+    invalid: "Invalid email/password combination"
   ror: "Ruby on Rails"
   ror_em: "<em>Ruby on Rails Tutorial</em>"
   ror_tut: "Ruby on Rails Tutorial "
